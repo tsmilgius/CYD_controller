@@ -1,4 +1,5 @@
 #include "ui.h"
+#include "cyd_config.h"
 
 static lv_obj_t *s_touch_label;
 static lv_obj_t *s_cursor;
@@ -6,7 +7,7 @@ static lv_obj_t *s_cursor;
 void ui_init(void)
 {
     lv_obj_t *screen = lv_screen_active();
-    lv_obj_set_style_bg_color(screen, lv_color_make(0x00, 0x00, 0xFF), 0);
+    lv_obj_set_style_bg_color(screen, lv_color_make(10, 0, 120), 0);
     lv_obj_set_style_bg_opa(screen, LV_OPA_COVER, 0);
 
     s_touch_label = lv_label_create(screen);
