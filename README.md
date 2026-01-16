@@ -20,7 +20,9 @@ screen, and applies the color fixes needed for correct colors.
 
 ### Pinout
 
-See `CYD_pinout.png` for the wiring diagram.
+Wiring diagram:
+
+![CYD pinout](CYD_pinout.png)
 
 Pins are defined in `main/cyd_config.h`:
 
@@ -80,6 +82,7 @@ main/
   main.c          LVGL init, touch mapping, and app_menu()
   cyd_hw.c/h      Backlight + LCD + touch init
   cyd_config.h    Pins, calibration, and color settings
+  ui.c/h          Basic UI setup (background, labels, cursor)
 ```
 
 ## Notes

@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPath": "/Users/tsmi/.espressif/v5.5.2/esp-idf",
+  "idf.pythonInstallPath": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.port": "/dev/tty.usbserial-14130",
+  "idf.toolsPath": "/Users/tsmi/.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32"
+  },
+  "clangd.path": "/Users/tsmi/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/Users/tsmi/workspace/espressif/CYD controller/build"
+  ],
+  "idf.flashType": "UART",
+  "idf.monitorPort": "/dev/tty.usbserial-14130"
+}
